@@ -1,0 +1,51 @@
+// NO PASSWORDS OR TOKENS
+[
+  // PS USERS
+  {
+    _type: SyUser
+    email: danny@syapse.com
+    firstName: Danny
+    lastName: Syapse
+    isActive: true
+    is_staff: true
+    isOrgAdmin: true
+    roles:
+    [
+      @Role(Admin)
+    ]
+    organizationId: @Organization(Syapse)
+  },
+  {
+    _type: SyUser
+    email: rajg@syapse.com
+    firstName: Raj
+    lastName: Golawar
+    isActive: true
+    is_staff: true
+    isOrgAdmin: true
+    roles:
+    [
+      @Role(Admin)
+    ]
+    organizationId: @Organization(Syapse)
+  },
+  {
+    _type: SyUser
+    email: joshm@syapse.com
+    firstName: Josh
+    lastName: Myers
+    isActive: true
+    is_staff: true
+    isOrgAdmin: true
+    roles:
+    [
+      @Role(Admin)
+    ]
+    organizationId: @Organization(Syapse)
+  },
+
+  // CDI USERS - ADD AS NEEDED
+  
+  // QA USERS - ADD AS NEEDED
+  
+]

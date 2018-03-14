@@ -1,0 +1,29 @@
+{
+   # core features
+  common: true
+  org_mgmt: true
+  patient_mgmt: true
+
+  # platform features
+  emr_embed: false
+
+  # external data ingestion
+  cdi: false
+  lab_base: false
+  lab_integration: false
+  lab_report_match: false  # for reports that can't match test orders
+  mtuitive: false  # integrates with CoPath to allow structured pathology data
+
+  # insights and analysis
+  mtb: true
+  mtb_mgmt: true
+  mtb_request: true
+  similarpatients: true
+
+  # administration
+  financial_assistance: false
+
+  # future features (all `false`)
+  patient_redirect: false  # requires EMR embedding
+  report: false  # saved queries
+}

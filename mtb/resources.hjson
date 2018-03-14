@@ -1,0 +1,6 @@
+// Activate for all orgs that will be either performing or requesting MTBs.
+
+"MTBConfiguration(SNUH)":
+{
+    organization: @Organization(SNUH)
+}

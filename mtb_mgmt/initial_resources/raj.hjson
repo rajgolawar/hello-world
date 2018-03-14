@@ -1,0 +1,11 @@
+[
+  // Define CaseReviewBoard here instead of managed resources
+  // because managed resources can't be updated
+  // but we need to add users to these features.
+  {
+    _type: CaseReviewBoard
+    boardType: "Molecular Tumor Board"
+    name: "SNUH Molecular Tumor Board"
+    organization: @Organization(SNUH)
+  }
+]

@@ -1,0 +1,36 @@
+// CUSTOMER ORGS
+
+"OrgManagementConfiguration(SNUH)":
+{
+  organization: @Organization(SNUH)
+}
+
+// CDI PIPELINE BOT USERS
+
+# "SyUser(SNUH Pipeline Processing)": {
+#     email: bot-SNUHpipelineprocesser@syapse.com
+#     isOrgAdmin: true
+#     isActive: true
+#     isBot: true
+#     roles: [
+#         @Role(Admin)
+#         @Role(Data Loader)
+#         @Role(Pipeline Process)
+#     ]
+#     firstName: Pipeline Process
+#     lastName: Bot
+#     organizationId: @Organization(SNUH)
+# }
+
+# "SyUser(SNUH Pipeline Kickoff)": {
+#     email: bot-SNUHpipelinekickoff@syapse.com
+#     isOrgAdmin: false
+#     isActive: true
+#     isBot: true
+#     roles: [
+#         @Role(Pipeline Kickoff)
+#     ]
+#     firstName: Pipeline
+#     lastName: Kickoff
+#     organizationId: @Organization(SNUH)
+# }
