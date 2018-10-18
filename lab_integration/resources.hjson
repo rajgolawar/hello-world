@@ -1,7 +1,0 @@
-// Lab Organizations are defined in Apps ... syconfig/defaults/lab_integration/resources.hjson
-
-# SNUH external labs go here
-# "LabIntegrationConfiguration(SNUH LAB)":
-# {
-#   organization: "@Organization(SNUH LAB)"
-# }

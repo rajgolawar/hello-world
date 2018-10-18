@@ -1,9 +1,0 @@
-// Activate for orgs that will be performing MTBs. Roles "Molecular Tumor Board Member" and "Molecular Tumor Board Coordinator" are created in this activation.
-
-"MTBManagementConfiguration(SNUH)":
-{
-    organization: @Organization(SNUH)
-    clinicalDataAccess: [
-        @Organization(SNUH)
-    ]
-}

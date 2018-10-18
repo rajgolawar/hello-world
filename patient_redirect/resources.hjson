@@ -1,6 +1,0 @@
-// Activate the feature for each organization
-
-"PatientManagementConfiguration(SNUH)":
-{
-  organization: @Organization(SNUH)
-}
